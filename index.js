@@ -1,3 +1,6 @@
+const http = require('http');
+http.createServer((req, res) => res.end('Bot is alive!')).listen(process.env.PORT || 8080);
+
 // ============================================================
 //  TELASTER FINANCE — Telegram Bot Backend
 //  Stack: Telegraf (Node.js) + Firebase Web SDK v9+
